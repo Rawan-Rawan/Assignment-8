@@ -10,7 +10,7 @@ public class Script1 : MonoBehaviour
    
 {
    int counter = 0;
-   while (counter<21)
+   while (counter<20)
     {
     int rollDice = Random.Range(1,21);
     if (rollDice == 5) 
