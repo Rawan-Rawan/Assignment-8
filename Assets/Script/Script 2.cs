@@ -10,7 +10,7 @@ public class Script2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         string[] funnyArray = {"Cat", "Dog", "Car", "Pizza", "Hat", "Fish", "Tree", "Monkey", "Ball", "Bird"};
+    string[] funnyArray = {"Cat", "Dog", "Car", "Pizza", "Hat", "Fish", "Tree", "Monkey", "Ball", "Bird"};
     System.Random randomArray = new System.Random();
     string funnySentence ="";
     int wordCounter =0;
