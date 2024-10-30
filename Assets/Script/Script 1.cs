@@ -9,8 +9,7 @@ public class Script1 : MonoBehaviour
     void Start()
    
 {
-   int counter = 0;
-   while (counter<20)
+   while (true)
     {
     int rollDice = Random.Range(1,21);
     if (rollDice == 5) 
@@ -22,7 +21,7 @@ public class Script1 : MonoBehaviour
     break;
     }
     Debug.Log(rollDice);
-    ++counter;
+   
     }
 
  }
